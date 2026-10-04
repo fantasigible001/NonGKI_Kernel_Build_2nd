@@ -148,3 +148,11 @@ jobs:
       fail-fast: true
     uses: ./.github/workflows/build-redmi-note11pro-5g-aosp-a16.yml
     secrets: inherit
+
+  ## POCO
+  build-poco-f4-hos3-a16:
+    name: "Poco F4 (HyperOS 3 A16)"
+    strategy:
+      fail-fast: true
+    uses: ./.github/workflows/build-poco-f4-hos3-a16.yml
+    secrets: inherit
